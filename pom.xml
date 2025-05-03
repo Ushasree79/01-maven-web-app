@@ -15,8 +15,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-
-
   
 <build>
   <plugins>
@@ -27,10 +25,3 @@
     </plugin>
   </plugins>
 </build> 
-
-
-  
-  <build>
-    <finalName>01-maven-web-app</finalName>
-  </build>
-</project>
