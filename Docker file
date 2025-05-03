@@ -2,10 +2,10 @@ FROM openjdk:17
 
 MAINTAINER <USHASREE NCH>
 
-COPY target/products_api.jar  /usr/app/
+COPY 01-maven-web-app.war  /usr/app/
 
 WORKDIR /usr/app/
 
-ENTRYPOINT ["java", "-jar", "products_api.jar"]
+ENTRYPOINT ["java", "-jar", "01-maven-web-app.war"]
 
 EXPOSE 8080
